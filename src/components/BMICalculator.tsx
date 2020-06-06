@@ -7,7 +7,7 @@ const HEIGHT_DEFAULT = 165;
 const WEIGHT_DEFAULT = 60;
 const AGE_DEFAULT = 18;
 
-const SKINNY = "🤔   Too skinny";
+const SKINNY = "🤔 Too skinny";
 const NORMAL = "✔ Normal";
 const OVERWEIGHT = "🛑 Overweight";
 const OBESITY = "🤕 Obesity";
@@ -73,7 +73,6 @@ const BMICalculator: FC = () => {
   return (
     <div className="calculator">
       <FadeIn delay={100}>
-        {/* <h1>BMI Calculator</h1> */}
         <div className="genre">
           <div className={maleClassName.current}>
             <label htmlFor="male">
@@ -141,7 +140,6 @@ const BMICalculator: FC = () => {
           </div>
         </div>
 
-        {/* {showResults && ( */}
         <FadeIn>
           <div className="results">
             <div className="bmi">
@@ -157,7 +155,6 @@ const BMICalculator: FC = () => {
             <h3>{bmiClassName}</h3>
           </div>
         </FadeIn>
-        {/* )} */}
 
         <button onClick={save}>Save Results</button>
       </FadeIn>
