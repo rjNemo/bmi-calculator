@@ -1,5 +1,5 @@
 {
-  "name": "game-of-life",
+  "name": "bmi-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +10,10 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-fade-in": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-fade-in": "^1.1.0",
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
